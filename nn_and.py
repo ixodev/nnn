@@ -1,6 +1,6 @@
 import numpy as np
 
-
+# Simple Neural Network with a single layer
 class NeuralNetwork:
     def __init__(self, input_size, lr, epochs, roundx):
         self.weights = np.zeros(input_size + 1)
